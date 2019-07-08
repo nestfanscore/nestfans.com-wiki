@@ -7,7 +7,7 @@ module Homeland
         if Setting.has_module?(:wiki)
           Homeland.register_plugin do |plugin|
             plugin.name              = 'wiki'
-            plugin.display_name      = 'Wiki'
+            plugin.display_name      = '知识库'
             plugin.description       = Homeland::Wiki::DESCRIPTION
             plugin.version           = Homeland::Wiki::VERSION
             plugin.navbar_link       = true
