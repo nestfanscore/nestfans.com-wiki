@@ -5,7 +5,7 @@ require "homeland/wiki/version"
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
-  s.name        = "homeland-wiki"
+  s.name        = "nestfans.com-wiki"
   s.version     = Homeland::Wiki::VERSION
   s.authors     = ["Griffin Qiu", "Jason Lee"]
   s.email       = ["griffinqiu@gmail.com", "huacnlee@gmail.com"]
