@@ -1,7 +1,7 @@
-Homeland::Wiki
+Nestfans.com::Wiki
 --------------
 
-Wiki 栏目插件 for [Homeland](https://gethomeland.com)
+Wiki 栏目插件 for [nestfans.com](https://github.com/nestfanscore/nestfans.com)
 
 简单的实现 /wiki 栏目，并在导航栏显示。
 
@@ -9,10 +9,10 @@ Wiki 栏目插件 for [Homeland](https://gethomeland.com)
 
 ## Installation
 
-在 Homeland 应用的 Gemfile 增加:
+在 nestfans.com 应用的 Gemfile 增加:
 
 ```ruby
-gem 'homeland-wiki'
+gem 'nestfans.com-wiki'
 ```
 
 And then execute:
@@ -22,7 +22,7 @@ $ bundle
 
 ## Configuration
 
-修改 Homeland 的 `modules` 配置，增加 `wiki` 以启用。
+修改 nestfans.com 的 `modules` 配置，增加 `wiki` 以启用。
 
 ```yml
 defaults: &defaults
